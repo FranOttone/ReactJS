@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
+import CartWidget from '../CartWidget/CartWidget'
 
 export default class header extends Component {
     render() {
@@ -9,9 +10,9 @@ export default class header extends Component {
                     <a href="#" className='brand'>THËA</a>
                 </div>
                 <div className='divA'>
-                <a href="#">Top</a>
-                <a href="#">Bottom</a>
-                <a href="#">Accesorios</a>
+               
+               <CartWidget />
+
                 </div>
             </nav>
         )
