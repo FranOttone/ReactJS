@@ -10,7 +10,10 @@ export default class App extends Component {
     return (
       <div>
         <Header />
-        <ItemListConteiner />
+        <ItemListConteiner titulo={'Navegá por categorías'} contenido={'Camisas y Sweaters'}/>
+        <ItemListConteiner  contenido={'Pantalones'}/>
+        <ItemListConteiner  contenido={'Abrigos'}/>
+        <ItemListConteiner  contenido={'Remeras'}/>
       </div>
     )
   }

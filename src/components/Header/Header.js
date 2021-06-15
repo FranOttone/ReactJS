@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Header.css';
 import CartWidget from '../CartWidget/CartWidget'
 
-export default class header extends Component {
+export default class Header extends Component {
     render() {
         return (
             <nav>
