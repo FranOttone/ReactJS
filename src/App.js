@@ -4,6 +4,7 @@ import './App.css';
 import React, { Component } from 'react'
 import Header from './components/Header/Header'
 import ItemListConteiner from './components/ItemListConteiner/ItemListConteiner'
+import ItemList from './components/ItemList/ItemList';
 
 export default class App extends Component {
  

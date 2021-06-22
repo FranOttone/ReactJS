@@ -22,7 +22,13 @@ useEffect(() =>{
 
 return(
     <div>
-        <h4>{Productos.map((x) =><p key={x.id}>{x.name}</p>)}</h4>
+        {Productos.map((prod)=>{
+            return(
+                <div key={prod.id}>
+                   <p data={prod.name}></p>
+                </div>
+            )
+        })}
     </div>
 )}
 
